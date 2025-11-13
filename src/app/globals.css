@@ -1,0 +1,29 @@
+@import "tailwindcss";
+:root {
+  --primary: #37940b;
+  --secondary: #7CFC00;
+  /* --dark: #222; */
+  --light: #f9f9f9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: var(--light);
+  color: var(--dark);
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 80px 20px;
+}
+
+h1, h2 {
+  font-weight: 700;
+  color: var(--dark);
+}
+
+/* a {
+  text-decoration: none;
+  color: var(--primary);
+} */
