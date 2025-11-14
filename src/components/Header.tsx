@@ -53,11 +53,17 @@ useEffect(() => {
           <a href="#about" className="hover:text-[var(--primary)] transition">
             About
           </a>
-          <a href="#mission" className="hover:text-[var(--primary)] transition">
-            Mission
-          </a>
           <a href="#services" className="hover:text-[var(--primary)] transition">
             Services
+          </a>
+          <a href="#case-studies" className="hover:text-[var(--primary)] transition">
+            Case Studies
+          </a>
+          <a href="#team" className="hover:text-[var(--primary)] transition">
+            Our Team
+          </a>
+          <a href="#testimonials" className="hover:text-[var(--primary)] transition">
+            Testimonial
           </a>
           <a href="#contact" className="hover:text-[var(--primary)] transition">
             Contact

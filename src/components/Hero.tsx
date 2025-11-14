@@ -26,7 +26,7 @@ const Hero = () => {
       className="relative min-h-screen flex items-center justify-center text-center overflow-hidden"
     >
       {/* Image Slider */}
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 bg-black">
         <AnimatePresence mode="wait">
           <motion.img
             key={images[index]}
@@ -41,7 +41,7 @@ const Hero = () => {
         </AnimatePresence>
 
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
       </div>
 
       {/* Text Content */}
